@@ -1,0 +1,12 @@
+.appointment-cont {
+  padding: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.name-star-cont {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}

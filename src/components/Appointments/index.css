@@ -1,0 +1,66 @@
+.main-bg {
+  background-image: linear-gradient(to top, #9796f0, #fbc7d4);
+  min-height: 100vh;
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.card {
+  background-color: #ffffff;
+  border-radius: 20px;
+  padding: 30px;
+}
+
+.add-appointment-sect {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.name-input {
+  width: 250px;
+  box-shadow: 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  padding: 10px;
+  margin-bottom: 15px;
+}
+
+.date-Input {
+  width: 250px;
+  box-shadow: 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  padding: 10px;
+  margin-bottom: 15px;
+}
+
+.btn {
+  padding: 15px;
+  background-color: #8b5cf6;
+  text-align: center;
+  border-radius: 10px;
+  color: #ffffff;
+  justify-self: flex-end;
+  cursor: pointer;
+}
+
+.appointments-cont {
+  padding: 10px;
+}
+
+.appointments-header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.starred-btn {
+  padding: 10px;
+  border-radius: 10px;
+}
